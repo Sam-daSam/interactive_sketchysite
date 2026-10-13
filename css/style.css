@@ -40,13 +40,28 @@ body {
 }
 
 .mabuttons {
+    display:flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    
+    width: 50%;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    padding: 3px;
+    padding: 1%;
     border: 3px solid grey;
 }
 
+/*display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly ;
+align-items: end;
+width: 50%;*/
 
 .welcome{
     background-color: white;
