@@ -72,7 +72,20 @@ width: 50%;*/
     padding: 2%;
 }
 
-.section {
+section {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    padding: 2%;
+}
+
+.doscolumns {
+    display: flexbox;
+    column-count: 2;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -83,4 +96,22 @@ width: 50%;*/
     padding: 2%;
 }
 
-.images {}
+
+ article {
+    background-color: white;
+    
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 30%;
+	padding: 2%;
+    
+ }
+ .articleimg {
+    display: flex;
+    flex-direction: row;
+background-color: none;
+max-width: 5%;
+padding: 2%;
+ }
+    
