@@ -13,6 +13,9 @@ go ahead and play with these, can you get the colors to change? What do you noti
  
  h1 {
     text-align: center;
+    font-weight: bold;
+    font-size: 10
+    0%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -28,6 +31,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
+    
   
 }
 
@@ -65,5 +69,11 @@ width: 50%;*/
 
 .welcome{
     background-color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 2%;
+}
+
+.section {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }

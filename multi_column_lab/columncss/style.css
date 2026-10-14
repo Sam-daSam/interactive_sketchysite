@@ -105,6 +105,15 @@ img {
   width: 50%;
   margin: auto;
 }
+
+.mabuttons {
+  display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'fleetwoodMac', sans-serif;
+ 
+
+}
 /* 4. Add display: flex; to flex-container */
 /* 5. Add flex-direction: row; to flex-container; */
 /* 6. Give each column wrapper (flex item) a width in percentages, adjust margin and padding so that it is visually appealing */
