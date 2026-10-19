@@ -80,10 +80,11 @@ width: 50%;*/
     padding: 2%;
 }
 
+
+
 section {
-    background-color: white;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly ;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,9 +108,10 @@ section {
 
  article {
     background-color: white;
-    
+    align-items: center;
+    justify-content: space-between;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: nowrap;
 	width: 30%;
 	padding: 2%;
