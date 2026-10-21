@@ -23,7 +23,8 @@ go ahead and play with these, can you get the colors to change? What do you noti
     text-align: center;
     font-weight: bold;
     font-size: 6
-    font-family: Arial, Helvetica, sans-serif;
+   
+    
 }
 
 body {
@@ -42,13 +43,7 @@ body {
   
 }
 
-.imbasic {
-    img{
-        border-radius: 5%;
-        max-width: 50%;
-    }
-   
-}
+
 
 .mabuttons {
     display:flexbox;
