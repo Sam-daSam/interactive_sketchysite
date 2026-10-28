@@ -12,11 +12,11 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
  
  h1 {
-    text-align: center;
+    font-size: 100px;
     font-weight: bold;
-    font-size: 10
-    0%;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center; }
+
 
 
  h2 {
@@ -39,11 +39,9 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
-    
+  
   
 }
-
-
 
 .mabuttons {
     display:flexbox;
@@ -53,15 +51,24 @@ body {
     text-decoration: none;
     align-items: center;
     text-align: center;
+    font-size: 200%;
     
     width: 50%;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
+  
     background-color: white;
     padding: 1%;
     border: 3px solid grey;
+    border-radius: 20%;
+
+    box-shadow: inset;
+    
 }
 
+.mabuttons a:hover {
+    background-color:aqua;
+ }
 /*display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
@@ -85,6 +92,8 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
     padding: 2%;
+    
+    
 }
 
 .doscolumns {
@@ -102,16 +111,20 @@ section {
 
 
  article {
+    font-size: 200%;
     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
     background-color: white;
-    justify-content: space-evenly;
+   
 	flex-direction: column;
 	flex-wrap: nowrap;
 	width: 30%;
 	padding: 2%;
+
+    
 
  }
 
@@ -139,5 +152,11 @@ iframe {
      display: flex;
     flex-direction: row;
 background-color: none;
-max-width: 200%;
+}
+
+ .centerit{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
 }
