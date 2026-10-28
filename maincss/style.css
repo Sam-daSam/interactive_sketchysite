@@ -12,7 +12,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
  
  h1 {
-    font-size: 100px;
+    font-size: 90;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 text-align: center; }
@@ -51,7 +51,7 @@ body {
     text-decoration: none;
     align-items: center;
     text-align: center;
-    font-size: 200%;
+    font-size: 150%;
     
     width: 50%;
     color: grey;
@@ -111,7 +111,7 @@ section {
 
 
  article {
-    font-size: 200%;
+    font-size: 150%;
     display: flex;
      justify-content: space-evenly;
      align-items: center;
