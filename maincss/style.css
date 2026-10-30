@@ -34,11 +34,15 @@ body {
 }
 
 .searchyy {
+    position: relative;
+    margin: 0,0,0,0;
+     z-index: 2;
     background-color: white;
     padding: 2%;
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
+   
   
   
 }
@@ -53,6 +57,7 @@ body {
     text-align: center;
     font-size: 150%;
     
+    
     width: 50%;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,8 +71,8 @@ body {
     
 }
 
-.mabuttons a:hover {
-    background-color:aqua;
+.mabuttons:hover {
+    background-color:#f3dd50;
  }
 /*display: flex;
 flex-direction: row;
