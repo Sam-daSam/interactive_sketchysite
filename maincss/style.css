@@ -169,4 +169,6 @@ background-color: none;
 .easteregg{
     color: black;
   text-decoration: none;
-}
+  cursor: url("/img/Cursor.png"), auto;
+
+}  
