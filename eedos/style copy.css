@@ -1,0 +1,45 @@
+/*
+
+
+
+
+Hi!
+
+If you stumbled upon this in the files, GET OUT! Searching is part of the experience!
+Please :( 
+If not, Congrats!
+ */
+ 
+
+* {
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 80%
+
+}
+
+.slideoff {
+    overflow: hidden;
+    position: relative;
+}
+
+.thingitsin{
+    position: absolute;
+     right: 1000;
+     z-index: 3;
+}
+
+.blokmoving { 
+    transform: translate(-1000px,0px);
+     transition-duration: 5;
+}
