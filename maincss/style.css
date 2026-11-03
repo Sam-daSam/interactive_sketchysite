@@ -159,7 +159,7 @@ iframe {
 background-color: none;
 }
 
- .centerit{
+#centerit{
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
