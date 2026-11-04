@@ -1,0 +1,17 @@
+
+.greet {
+ width: 600;
+ height: 600px;
+ position: relative;
+left: 30%;
+bottom: -225px;
+z-index: 2;
+
+ 
+}
+
+.norman {
+     width: 50%;
+ height: 50%;
+ position: relative;
+}
