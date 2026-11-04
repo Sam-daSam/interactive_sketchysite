@@ -43,6 +43,8 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
+    box-shadow:  10px 10px 20px #dfa92a
+
    
   
   
@@ -80,6 +82,7 @@ body {
 .welcome{
     background-color: white;
     padding: 2%;
+    box-shadow:  10px 10px 20px #dfa92a;
 }
 
 
@@ -124,6 +127,7 @@ section {
 	flex-wrap: nowrap;
 	width: 30%;
 	padding: 2%;
+    box-shadow:  10px 10px 20px #dfa92a;
 
     
 
