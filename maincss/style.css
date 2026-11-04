@@ -12,10 +12,11 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
  
  h1 {
-    font-size: 90;
+    font-size: 100px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-text-align: center; }
+text-align: center;
+padding: 2%; }
 
 
 
@@ -73,13 +74,12 @@ body {
 
 .mabuttons:hover {
     background-color:#f3dd50;
+  font-size: 2.25em;
+  transition-duration: 500ms;
+
+
  }
-/*display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-evenly ;
-align-items: end;
-width: 50%;*/
+
 
 .welcome{
     background-color: white;
@@ -102,7 +102,7 @@ section {
 }
 
 .doscolumns {
-    display: flexbox;
+    display:flex;
     column-count: 2;
     display:flex;
     flex-direction: column;
