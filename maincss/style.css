@@ -187,8 +187,6 @@ body {
 
 
 @media (max-width:1000px) {
-        body {
-        background-color: aqua;}
          section{
     display: flex;
     flex-direction: row;
